@@ -1,0 +1,21 @@
+Calender: This do not need to explain, see the name you will know that it's
+    important.
+Card: important. Have a check.
+Carousel: Very import, it make first page beautiful by an image.
+Collapse: For some little messages.
+DropDownButton: For comments and some other functions.
+Embeds: For adding a video.
+Responsive Embeds: Can load some video.
+Form: If you like it, you can use it create some comment parts.
+Form Checkbox: Same with "Form".
+Form Datepicker: Can pick a day from calender. I can use it to create some
+    events diary functions.
+From tags: Can reliaze search function. (Not important now.)
+Form textarea: Can reliaze commit function.
+Images: It's important, no reason.
+Jumbotron: no reason.
+Layout and Grid system: It is very important, with no reason.
+Link: Very important, can do the button with URL.
+List group: important, can do the University history.
+Toast
+Navbar: Can be the Pages' head.
