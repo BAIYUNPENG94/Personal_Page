@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <!--<div id="nav">-->
-    <!--  <b-link href="/">Home</b-link>-->
+     <!--<b-link href="/">Home</b-link>-->
     <!--  <router-link to="/">Homepage</router-link>-->
     <!--  <router-link to="/about">About</router-link>-->
     <!--</div>-->
