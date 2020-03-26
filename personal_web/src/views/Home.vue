@@ -1,9 +1,9 @@
 <template>
   <div class="home">
     <!--<img alt="Vue logo" src="../assets/logo.png">-->
-    <homepage msg = "This is my Personal web's homepage, my name is Jim.Bai"/>
-    <SlidePhoto/>
+    <homepage/>
     <UnivLogo/>
+    <SlidePhoto/>
   </div>
 </template>
 

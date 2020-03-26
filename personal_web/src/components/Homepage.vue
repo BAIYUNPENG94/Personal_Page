@@ -3,7 +3,7 @@
     <div>
       <b-navbar class="navbar" toggleable="lg" type="dark">
         <b-navbar-brand href=" ">
-          <i>YP.Bai</i>
+          <i>Yunpeng.Bai</i>
         </b-navbar-brand>
 
         <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -17,6 +17,11 @@
 
           <!-- Right aligned nav items -->
           <b-navbar-nav class="ml-auto">
+            <h1
+              align="center"
+              class="Masterstudent"
+            >WASEDA University Master Student Class Of 2020.Sep</h1>
+
             <b-nav-form>
               <b-form-input
                 size="sm"
@@ -105,17 +110,22 @@ a {
   color: #42b983;
 }
 .my-2 {
-  background-color: darkgreen;
+  background-color: darkred;
 }
 .my-sm-0 {
-  background-color: darkgreen;
+  background-color: darkred;
 }
 .navbar {
-  background-color: black;
+  background-color: darkred;
 }
 .univname {
   text-align: center;
   color: white;
   background-color: darkred;
+}
+.Masterstudent {
+  font-size: 1.4em;
+  color: white;
+  padding: 7px 0px 0px 0px;
 }
 </style>
