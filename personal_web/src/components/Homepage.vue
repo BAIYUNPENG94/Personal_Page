@@ -1,7 +1,7 @@
 <template>
   <div>
     <div>
-      <b-navbar toggleable="lg" type="dark" variant="success">
+      <b-navbar class="aaaa" toggleable="lg" type="dark">
         <b-navbar-brand href=" ">
           <i>YP.Bai</i>
         </b-navbar-brand>
@@ -63,6 +63,20 @@
       </b-row>
     </b-container>
 
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>
+          <h1 class="univname">
+            DongHua University
+          </h1>
+        </b-col>
+        <b-col>
+          <h1 class="univname">
+            Waseda University
+          </h1>
+        </b-col>
+      </b-row>
+    </b-container>
     <div>
       <b-carousel
         id="carousel-1"
@@ -179,5 +193,13 @@ a {
 }
 .my-sm-0 {
   background-color: darkgreen;
+}
+.aaaa {
+  background-color: black;
+}
+.univname {
+  text-align: center;
+  color: white;
+  background-color: darkred;
 }
 </style>
