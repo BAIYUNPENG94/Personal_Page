@@ -4,6 +4,7 @@
     <homepage/>
     <UnivLogo/>
     <SlidePhoto/>
+    <Abilitychart/>
   </div>
 </template>
 
@@ -12,13 +13,15 @@
 import Homepage from '../components/Homepage.vue'
 import SlidePhoto from '../components/SlidePhoto.vue'
 import UnivLogo from '../components/UnivLogo.vue'
+import Abilitychart from '../components/Abilitychart.vue'
 
 export default {
   name: 'Home',
   components: {
     Homepage,
     UnivLogo,
-    SlidePhoto
+    SlidePhoto,
+    Abilitychart
   }
 }
 </script>
