@@ -12,6 +12,7 @@
     "bootstrap-vue": "^2.8.0",
     "buttercms": "^1.2.2",
     "chart.js": "^2.9.3",
+    "chartjs": "^0.3.24",
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
     "vue-chartjs": "^3.5.0",
