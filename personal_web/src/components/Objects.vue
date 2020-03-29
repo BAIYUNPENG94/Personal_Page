@@ -19,7 +19,6 @@
 
 <style scoped lang="scss">
 .divsize {
-  width: 1600px;
   background-color: lightgray;
   margin: auto;
 }
