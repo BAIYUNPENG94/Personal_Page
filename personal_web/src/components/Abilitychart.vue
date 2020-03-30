@@ -4,7 +4,7 @@
       <b-row>
         <b-col></b-col>
         <b-col>
-            <radar-chart/>
+          <radar-chart />
         </b-col>
         <b-col></b-col>
       </b-row>

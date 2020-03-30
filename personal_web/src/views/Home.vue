@@ -25,7 +25,7 @@ export default {
     UnivLogo,
     SlidePhoto,
     Abilitychart,
-    Objects,
+    Objects
   }
 };
 </script>
