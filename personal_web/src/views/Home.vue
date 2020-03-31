@@ -5,7 +5,7 @@
     <UnivLogo />
     <SlidePhoto />
     <Abilitychart />
-    <objects />
+    <Projects />
   </div>
 </template>
 
@@ -15,7 +15,7 @@ import Homepage from "../components/Homepage.vue";
 import SlidePhoto from "../components/SlidePhoto.vue";
 import UnivLogo from "../components/UnivLogo.vue";
 import Abilitychart from "../components/Abilitychart.vue";
-import Objects from "../components/Objects.vue";
+import Projects from "../components/Projects.vue"
 /*import test from "../components/test.vue"*/
 
 export default {
@@ -25,7 +25,7 @@ export default {
     UnivLogo,
     SlidePhoto,
     Abilitychart,
-    Objects
+    Projects,
   }
 };
 </script>
