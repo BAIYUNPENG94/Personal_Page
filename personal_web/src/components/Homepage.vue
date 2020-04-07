@@ -13,10 +13,12 @@
             <b-nav-item href="/Resume">Resume</b-nav-item>
             <b-nav-item href="/About">About</b-nav-item>
             <b-nav-item href="/Aboutme">Aboutme</b-nav-item>
+            <b-nav-item href="/blog">Blog</b-nav-item>
           </b-navbar-nav>
 
           <b-navbar-nav class="ml-auto">
             <h1
+
               align="center"
               class="Masterstudent"
             >WASEDA University Master Student Class Of 2020.Sep</h1>

@@ -99,7 +99,6 @@ export default {
       this.sliding = false;
     },
     test: function() {
-      console.log(1);
     }
   }
 };
