@@ -11,21 +11,19 @@
       <b-row>
         <b-col></b-col>
         <b-col>
-          <div>
-            <b-button-group>
+          <div class="mt-3">
+            <b-button-group> 
               <b-button
                 pill
                 v-on:click="chartonshow = 'radar-chart01'"
                 class="button"
+                variant="success"
               >Languages&FrameWorks</b-button>
-              <b-button pill v-on:click="chartonshow = 'radar-chart03'" class="button">Tools</b-button>
+              <b-button pill v-on:click="chartonshow = 'radar-chart03'" class="button" variant="success">Tools</b-button>
             </b-button-group>
           </div>
         </b-col>
         <b-col></b-col>
-      </b-row>
-      <b-row>
-        <b-col>{{test}}</b-col>
       </b-row>
     </b-container>
   </div>

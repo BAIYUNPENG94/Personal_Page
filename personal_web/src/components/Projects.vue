@@ -5,20 +5,18 @@
         <b-row class="nopadding">
           <b-col cols="9" class="nopadding">
             <b-jumbotron class="jum" bg-variant="info" text-variant="white" border-variant="dark">
-              <template v-slot:header>BootstrapVue</template>
-
-              <template v-slot:lead>
-                This is a simple hero unit, a simple jumbotron-style component
-                for calling extra attention to
-                featured content or information.
+              <template v-slot:header>
+                <h1>UAV 3D Reconstruction Path Planing System</h1>
               </template>
 
-              <hr class="my-4" />
-
+              <template
+                v-slot:lead
+              >Developed a drone path planing system to raise the efficiency of 3D reconstruction.</template>
+              <hr />
               <p>
-                It uses utility classes for typography and spacing to space
-                content out within the larger
-                container.
+                &Delta; Developed a sensors based drone control system by using Ros melodic system and Ardupilot Software suite.
+                <br />&Delta; Used Gazebo do all the simulation experiments.
+                <br />&Omicron; Using Languages and Platforms: C++, Python, ROS melodic system, Gazebo, Raspberry Pi.
               </p>
             </b-jumbotron>
           </b-col>
@@ -36,20 +34,43 @@
           </b-col>
           <b-col cols="9" class="nopadding">
             <b-jumbotron class="jum" bg-variant="info" text-variant="white" border-variant="dark">
-              <template v-slot:header>BootstrapVue</template>
-
-              <template v-slot:lead>
-                This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-                featured content or information.
+              <template v-slot:header>
+                <h1>System of Controlling Remote Car Using Computer</h1>
               </template>
 
-              <hr class="my-4" />
+              <template
+                v-slot:lead
+              >Developed a system which can remote control a remote car in different network use laptop keyboard.</template>
+              <hr />
 
               <p>
-                It uses utility classes for typography and spacing to space content out within the larger
-                container.
+                &Delta; The signal receive and control part is developed on Raspberry Pi and Arduino.
+                <br />&Omicron; Using Languages and Platforms: C++, Raspberry Pi, Arduino, Arduino IDE.
               </p>
             </b-jumbotron>
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+    <div class="divsize">
+      <b-container fluid>
+        <b-row class="nopadding">
+          <b-col cols="9" class="nopadding">
+            <b-jumbotron class="jum" bg-variant="info" text-variant="white" border-variant="dark">
+              <template v-slot:header>
+                <h1>My Personal Web Page</h1>
+              </template>
+
+              <hr />
+              <p>
+                &Delta; Developed the front-end page based on VUE framework and Bootstrap.
+                <br />&Delta; Developed the personal blog page use Hexo.
+                <br />&Omicron; Using Languages and Platforms: VUE, Bootstrap, HTML5, JavaScript, Hexo.
+              </p>
+            </b-jumbotron>
+          </b-col>
+          <b-col cols="3" class="nopadding">
+            <img src="donghua.png" class="img nopadding" />
           </b-col>
         </b-row>
       </b-container>
@@ -73,6 +94,7 @@
   border-radius: 0;
   background-color: white !important;
   color: black !important;
+  text-align: left !important;
 }
 .img {
   max-height: 100%;

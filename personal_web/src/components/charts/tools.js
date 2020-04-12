@@ -9,7 +9,7 @@ export default {
                 labels: ["GIT", "VIM", "Jetbrain", "VScode", "Docker"],
                 datasets: [
                     {
-                        label: 'Languages & Frameworks',
+                        label: 'Tools',
                         backgroundColor: 'rgba(255, 0, 0, 0.4)',
                         pointBackgroundColor: 'rgba(255, 0, 0, 0.4)',
                         borderColor: 'rgba(255, 0, 0, 0.7)',
