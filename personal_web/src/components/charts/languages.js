@@ -6,14 +6,14 @@ export default {
     data: function () {
         return {
             chartdata: {
-                labels: ["Haha", "Swimming", "Eating", "Cycling"],
+                labels: ["Python", "C++", "JavaScript", "Dart", "VUE", "HEXO", "Flutter"],
                 datasets: [
                     {
-                        label: 'Languages & Frameworks',
+                        label: 'Languages & FrameWorks',
                         backgroundColor: 'rgba(255, 0, 0, 0.4)',
                         pointBackgroundColor: 'rgba(255, 0, 0, 0.4)',
                         borderColor: 'rgba(255, 0, 0, 0.7)',
-                        data: [80, 90, 90, 70]
+                        data: [90, 85, 85, 80, 85, 90, 80]
                     }
                 ]
             },

@@ -4,6 +4,7 @@ import Home from '../views/Home.vue'
 import Resume from '../views/Resume.vue'
 import About from '../views/About.vue'
 import Aboutme from '../views/Aboutme.vue'
+import test from '../components/test.vue'
 
 Vue.use(VueRouter)
 
@@ -27,6 +28,11 @@ const routes = [
     path: '/Aboutme',
     name: 'Aboutme',
     component: Aboutme 
+  },
+  {
+    path: '/test',
+    name: 'test',
+    component: test 
   },
 ]
 
