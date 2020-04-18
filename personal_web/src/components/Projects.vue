@@ -21,7 +21,28 @@
             </b-jumbotron>
           </b-col>
           <b-col cols="3" class="nopadding">
-            <img src="donghua.png" class="img nopadding" />
+            <img src="ROSdrone.png" class="img nopadding"  />
+          </b-col>
+        </b-row>
+      </b-container>
+    </div>
+    <div class="divsize">
+      <b-container fluid>
+        <b-row class="nopadding">
+          <b-col cols="3" class="nopadding">
+            <img src="worldapp.jpg" class="img nopadding" />
+          </b-col>
+          <b-col cols="9" class="nopadding">
+            <b-jumbotron class="jum" bg-variant="info" text-variant="white" border-variant="dark">
+              <template v-slot:header>
+                <h1>A World Time App</h1>
+              </template>
+              <hr />
+              <p>
+                &Delta; Mainly developed using Dart language and Flutter framework.
+                <br />&Omicron; Using Languages and Platforms: Dart, Flutter, Android Studio.
+              </p>
+            </b-jumbotron>
           </b-col>
         </b-row>
       </b-container>
@@ -29,15 +50,11 @@
     <div class="divsize">
       <b-container fluid>
         <b-row>
-          <b-col cols="3" class="nopadding">
-            <img src="Wasedalogo.jpg" class="img nopadding" />
-          </b-col>
           <b-col cols="9" class="nopadding">
             <b-jumbotron class="jum" bg-variant="info" text-variant="white" border-variant="dark">
               <template v-slot:header>
                 <h1>System of Controlling Remote Car Using Computer</h1>
               </template>
-
               <template
                 v-slot:lead
               >Developed a system which can remote control a remote car in different network use laptop keyboard.</template>
@@ -49,12 +66,18 @@
               </p>
             </b-jumbotron>
           </b-col>
+          <b-col cols="3" class="nopadding">
+            <img src="NoPhotoYet.png" class="img nopadding" />
+          </b-col>
         </b-row>
       </b-container>
     </div>
     <div class="divsize">
       <b-container fluid>
         <b-row class="nopadding">
+          <b-col cols="3" class="nopadding">
+            <img src="NoPhotoYet.png" class="img nopadding" />
+          </b-col>
           <b-col cols="9" class="nopadding">
             <b-jumbotron class="jum" bg-variant="info" text-variant="white" border-variant="dark">
               <template v-slot:header>
@@ -68,9 +91,6 @@
                 <br />&Omicron; Using Languages and Platforms: VUE, Bootstrap, HTML5, JavaScript, Hexo.
               </p>
             </b-jumbotron>
-          </b-col>
-          <b-col cols="3" class="nopadding">
-            <img src="donghua.png" class="img nopadding" />
           </b-col>
         </b-row>
       </b-container>
@@ -87,10 +107,12 @@
 }
 .nopadding {
   padding: 0px 0px 0px 0px;
+  margin-top: 12px;
 }
 .jum {
-  border: 0 !important;
-  margin-bottom: 0;
+  border: 1 !important;
+  margin-top:12px;
+  margin-bottom: 12px;
   border-radius: 0;
   background-color: white !important;
   color: black !important;
