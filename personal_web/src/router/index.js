@@ -3,8 +3,6 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Resume from '../views/Resume.vue'
 import About from '../views/About.vue'
-import Aboutme from '../views/Aboutme.vue'
-import test from '../components/test.vue'
 
 Vue.use(VueRouter)
 
@@ -24,20 +22,10 @@ const routes = [
     name: 'Resume',
     component: Resume
   },
-  {
-    path: '/Aboutme',
-    name: 'Aboutme',
-    component: Aboutme 
-  },
-  {
-    path: '/test',
-    name: 'test',
-    component: test 
-  },
 ]
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: 'hash',
   base: process.env.BASE_URL,
   routes
 })
